@@ -20,10 +20,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/autodistill/autodistill-yolo-world",
     install_requires=[
-        "ultralytics",
         "supervision",
         "autodistill",
-        "numpy"
+        "numpy",
+        "inference[yolo-world]==0.9.11"
     ],
     packages=find_packages(exclude=("tests",)),
     extras_require={
