@@ -13,7 +13,9 @@
 
 This repository contains the code supporting the YOLO-World base model for use with [Autodistill](https://github.com/autodistill/autodistill).
 
-[CLIP](https://github.com/openai/CLIP), developed by OpenAI, is a computer vision model trained using pairs of images and text. You can use CLIP with autodistill for image classification.
+[YOLO-World](https://github.com/AILab-CVC/YOLO-World), developed by Tencent's AI Lab, is a zero-shot object detection model that can run in close-to-real-time on powerful GPUs. You can provide arbitrary text prompts to detect objects in images, and the model will return bounding boxes and class labels for the objects it finds.
+
+You can use YOLO-World in Autodistill to detect objects.
 
 Read the full [Autodistill documentation](https://autodistill.github.io/autodistill/).
 
