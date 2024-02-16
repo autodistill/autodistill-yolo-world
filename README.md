@@ -23,8 +23,7 @@ Read the [YOLO-World Autodistill documentation](https://autodistill.github.io/au
 
 ## Installation
 
-To use YOLO-=World with autodistill, you need to install the following dependency:
-
+To use YOLO-World with autodistill, you need to install the following dependency:
 
 ```bash
 pip3 install autodistill-yolo-world
